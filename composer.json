@@ -1,7 +1,7 @@
 {
     "name": "cardvs/oauth2-server-storage",
     "description": "Storage oauth2 server implementation for league/oauth2-server",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://github.com/fahmiardi/oauth2-server-storage",
     "license": "MIT",
     "require": {
