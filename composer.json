@@ -5,7 +5,8 @@
     "homepage": "https://github.com/fahmiardi/oauth2-server-storage",
     "license": "MIT",
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "zetacomponents/database": "1.4.6"
     },
     "repositories": [
         {
@@ -32,8 +33,5 @@
         "psr-0": {
             "Cardvs\\OAuth2\\Server\\Storage": "src/"
         }
-    },
-    "suggest": {
-        "zetacomponents/database": "Allows use of the build in PDO storage classes"
     }
 }
