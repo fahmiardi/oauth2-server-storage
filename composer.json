@@ -1,0 +1,41 @@
+{
+    "name": "cardvs/oauth2-server-storage",
+    "description": "Storage oauth2 server implementation for league/oauth2-server",
+    "version": "develop",
+    "homepage": "https://github.com/fahmiardi/oauth2-server-storage",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "league/oauth2-server": "3.*",
+        "zetacomponents/database": "1.4.6",
+        "illuminate/hashing": "4.*"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/fahmiardi/oauth2-server-storage.git"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "server",
+        "storage",
+        "database",
+        "zetacomponents"
+    ],
+    "authors": [
+        {
+            "name": "Fahmi Ardi",
+            "email": "f4hem.net@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Cardvs\\OAuth2\\Server\\Storage": "src/"
+        }
+    }
+}
