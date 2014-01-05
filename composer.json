@@ -35,7 +35,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Cardvs\\OAuth2\\Server\\Storage": "src/"
+            "Cardvs\\OAuth2\\Server\\Storage\\Zetacomponents": "src/"
         }
     }
 }
