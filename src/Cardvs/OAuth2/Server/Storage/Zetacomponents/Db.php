@@ -1,6 +1,6 @@
 <?php
 
-namespace Cdv\OAuth2\Server\Storage\Zetacomponents;
+namespace Cardvs\OAuth2\Server\Storage\Zetacomponents;
 
 /**
 *
