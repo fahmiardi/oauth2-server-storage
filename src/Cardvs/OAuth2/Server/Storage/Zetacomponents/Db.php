@@ -13,8 +13,9 @@ class Db
         if(is_array($dsn)) {
             $idx = 0;
             foreach($dsn as $driver => $connection) {
-                $$driver = \ezcDbFactory::create( $connection );
-                \ezcDbInstance::set( $$driver, $driver );
+                $params = \ezcDbFactory::parseDSN( $connection );
+                $params['driver-opts'] = [\PDO::ATTR_PERSISTENT => true];
+                \ezcDbInstance::set( \ezcDbFactory::create( $params ), $driver );
 
                 // set default to first index
                 if($idx == 0) {
